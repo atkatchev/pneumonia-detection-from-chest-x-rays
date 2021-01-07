@@ -21,7 +21,7 @@ After validation a prediction is made and sent to the radiologist for them to gi
 
 <img src="img/diseaselist.png" height="600" width="600"/>
 
-**Device Limitations:** The trained algorithm (model) performs better without Consolidation, Edema, Effusion, Hernia, comorbid thoracic pathologies due to their pixel intensity distribution similarity to pneumonia. 
+**Device Limitations:** The trained algorithm (model) performs better without Consolidation, Edema, Effusion, Hernia, comorbid thoracic pathologies due to their pixel intensity distribution similarity to pneumonia. In other words classifying between Pneumonia and some of its comorbidities will be a hard task based only on pixels features. Lastly, Pneumonia comorbid with infiltration and Effusion is difficult to create a model that distinguish, for instance, when there is only Infiltration (Negative to Pneumonia) or Infiltration+Pneumonia (Positive to Pneumonia). 
 
 <img src="img/pneumonia.png" height="150" width="150"/>
 
